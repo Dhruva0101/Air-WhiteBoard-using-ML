@@ -69,6 +69,9 @@ The application will open a window displaying the webcam feed, with the top port
 - **Drawing Mode**: Raise your index finger to start drawing.
 - **Selection Mode**: Raise both the index and middle fingers to enter selection mode, where you can select different brush colors by pointing to the top of the screen.
 
+![Working](./assets/image17.png)
+
+
 ## How It Works
 
 1. **Hand Tracking**: The application uses **MediaPipe's** hand tracking model to detect hand landmarks and finger positions. It processes the video feed from the webcam and identifies key hand landmarks (e.g., index, middle, and thumb tips).
@@ -76,6 +79,9 @@ The application will open a window displaying the webcam feed, with the top port
 3. **Drawing**: In drawing mode, the application will draw lines based on the movement of the index finger. The user can also erase by selecting the black color (eraser mode).
 4. **Canvas**: The canvas (`imgCanvas`) stores the drawing, while the webcam feed (`img`) displays the live camera feed.
 5. **Brush Selection**: The user can select different brush colors by pointing to the top region of the screen (where header images are displayed). Each header image represents a different brush color.
+
+   ![Whorkflow](./assets/image2.png)
+
 
 ### The `HandTrackingM` Module
 
@@ -88,6 +94,10 @@ The `HandTrackingM` module utilizes **MediaPipe** for hand tracking and provides
 #### MediaPipe Hand Tracking
 
 - The `mediapipe` library's hand tracking solution provides an accurate and efficient method for detecting and tracking hands. It uses a deep learning model trained to detect hand landmarks (21 key points per hand), allowing for gesture recognition in real-time.
+
+- This is how MediaPipe works
+![MediaPipe Workflow](./assets/wimage5.png)
+
   
 ## Usage
 
