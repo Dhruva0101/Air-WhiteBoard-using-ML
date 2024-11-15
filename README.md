@@ -1,6 +1,6 @@
 ---
 
-# Hand Gesture Drawing Application
+# Air Whiteboard
 
 This project is a hand gesture-based drawing application that allows users to draw on a canvas using their hands. It utilizes the **MediaPipe** library for hand tracking, detecting finger positions and gestures in real-time. The user can interact with the application by selecting different brush colors and drawing on a digital canvas using their hand movements.
 
