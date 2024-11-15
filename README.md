@@ -25,7 +25,7 @@ To get started, clone this repository and install the required dependencies.
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/hand-gesture-drawing.git
+git clone https://github.com/Dhruva0101/hand-gesture-drawing.git
 cd hand-gesture-drawing
 ```
 
@@ -54,7 +54,7 @@ Make sure you have a folder named `Header` in the project directory containing i
 3. Green brush
 4. Black brush (for eraser)
 
-Place these images inside the `Header` folder and name them appropriately (e.g., `brush1.png`, `brush2.png`, etc.).
+Place these images inside the `Header` folder. (Added in the headers folder)
 
 ### Step 4: Run the Application
 
