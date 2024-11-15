@@ -96,7 +96,7 @@ The `HandTrackingM` module utilizes **MediaPipe** for hand tracking and provides
 - The `mediapipe` library's hand tracking solution provides an accurate and efficient method for detecting and tracking hands. It uses a deep learning model trained to detect hand landmarks (21 key points per hand), allowing for gesture recognition in real-time.
 
 - This is how MediaPipe works
-![MediaPipe Workflow](./assets/wimage5.png)
+![MediaPipe Workflow](./assets/image5.png)
 
   
 ## Usage
