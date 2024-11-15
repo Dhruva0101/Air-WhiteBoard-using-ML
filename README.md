@@ -1,5 +1,3 @@
-Sure! Here's an updated `README.md` based on the provided `HandTrackingM` code, which uses the `mediapipe` library for hand detection and tracking:
-
 ---
 
 # Hand Gesture Drawing Application
@@ -101,15 +99,3 @@ The `HandTrackingM` module utilizes **MediaPipe** for hand tracking and provides
 
 - **Hand Not Detected**: If the hand is not detected properly, make sure your hand is in front of the camera and clearly visible. You may need to adjust the lighting or the position of the hand.
 - **Lag or Slow Performance**: If you experience lag or slow performance, try lowering the webcam resolution in the `cv2.VideoCapture()` settings.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-### Notes:
-
-1. Replace the placeholder in the `clone` command with the actual repository URL if it's hosted on GitHub.
-2. This `README.md` assumes the existence of a `HandTrackingM` module (as per the code you provided). If the module is stored in a different file or location, adjust the instructions accordingly.
-3. If you haven't created a `requirements.txt` file yet, you can generate it using `pip freeze > requirements.txt`.
